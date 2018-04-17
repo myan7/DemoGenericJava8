@@ -1,6 +1,6 @@
-package com.youtube.java9s.L3;
+package com.youtube.java9s.L2;
 
-public class Guest {
+public class GuestApp {
 
 	public static void main(String[] args) {
 		Glass<Juice> glass = new Glass<>();
@@ -23,18 +23,6 @@ public class Guest {
 		glass2.liquid = water;
 		
 		Water w = glass2.liquid;
-		
-		//L3:
-		Color<Red,Green,Blue> color = new Color<>();
-		Red red = new Red();
-		Blue blue = new Blue();
-		Green green = new Green();
-		
-		Bartender bartender = new Bartender();
-		bartender.mix(juice, water);
-//		bartender.<Juice, Water>mix(red, blue);
-		bartender.<Juice, Water>mix(juice, water);
-		
 	}
 
 }

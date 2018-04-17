@@ -1,6 +1,6 @@
 package com.youtube.java9s.L5;
 
-public class Guest {
+public class GuestApp {
 
 	public static void main(String[] args) {
 		Glass<Juice> glass = new Glass<>();

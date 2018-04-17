@@ -1,6 +1,6 @@
 package com.youtube.java9s.L1;
 
-public class Guest {
+public class GuestApp {
 
 	public static void main(String[] args) {
 		Glass glass = new Glass();
